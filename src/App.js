@@ -1,17 +1,13 @@
 import React, { Component } from 'react'
-
+import About from "../src/pages/js/Abaut"
 
 import './App.css'
-import Navbar from './pages/js/Navbar'
+
 export default class App extends Component {
   render() {
     return (
       <div>
-<Navbar/>
-
-
-
-
+<About/>
       </div>
     )
   }

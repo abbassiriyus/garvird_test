@@ -1,9 +1,13 @@
 import React from 'react'
+import '../css/Abaut.css'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
-import '../css/abaut.css'
+
 export default function Abaut() {
   return (
     <div>
+      <Navbar/>
 <div className="asd">
     {/* <img src={abaut} alt="" /> */}
    <div className="asd-block">
@@ -27,7 +31,7 @@ export default function Abaut() {
 
 
 
-
+<Footer/>
     </div>
   )
 }

@@ -2,13 +2,15 @@
     width: 100%;
 min-height: 300px;
 background: url("https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-header-bg.jpg");
-background-position: top;
-background-repeat: no-repeat;
-background-size: cover; 
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 display: flex;
 align-items: center;
 justify-content: center;
 }
+
 .asd h1{
     font-weight: 700;
     font-style: normal;
@@ -576,3 +578,5 @@ margin-left: 82vw;
 .ichi{
     position: relative;
 }
+
+
