@@ -247,3 +247,17 @@ list-style: none;
     font-family: 'Rubik', sans-serif !important;
     margin-top: 30px;
 }
+
+.fact1,.advantage1,.skill1{
+    display: flex;
+    justify-content: space-between;
+}
+.facts,.advantages,.skills{
+    text-align: center;
+}
+.card4 h1{
+    padding-top: 10px;
+    color: #44bef1;
+    font-weight: 900;
+    font-size: 50px;
+}

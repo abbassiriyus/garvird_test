@@ -81,8 +81,6 @@ export default function Home() {
             <div className="katta1">
                 <center><h1>О нас</h1></center>
                 <center><div className="blue1"></div></center>
-
-Миробид, [06.07.2023 8:34]
 <div className="cards1">
                     <div className="cards2">
                         <div className="card4">
@@ -94,19 +92,43 @@ export default function Home() {
                                 <button style={ state===3 ? {background:"#44bef1",border:"none"}:state===2?{background:"white"}:{background:"white"} } onClick={()=> setState(3)} className='but2'>Навыки</button>
                             </div>
                             <p className='about_p'>Наша компания является вашим универсальным решением для всех потребностей. Нет сомнений, что мы лидеры, и вам не нужно беспокоиться о нашем имидже, потому что он идеален.</p>
-                            {state===1 ? (<div>
+                            {state===1 ? (<div className='fact1'>
+                                <div className="facts">
+                                    <h1>275</h1>
+                                    <p>Дела завершены</p>
+                                </div>
+                                <div className="facts">
+                                    <h1>275</h1>
+                                    <p>Дела завершены</p>
+                                </div>
                                 <div className="facts">
                                     <h1>275</h1>
                                     <p>Дела завершены</p>
                                 </div>
                             </div>):<div>
-                            {state===2?(<div>
+                            {state===2?(<div className='advantage1'>
                                 
                                 <div className="advantages">
                                     <h1>19</h1>
                                     <p>Консультанты</p>
                                 </div>
-                            </div>): (<div>
+                                <div className="advantages">
+                                    <h1>19</h1>
+                                    <p>Консультанты</p>
+                                </div>
+                                <div className="advantages">
+                                    <h1>19</h1>
+                                    <p>Консультанты</p>
+                                </div>
+                            </div>): (<div className='skill1'>
+                                <div className="skills">
+                                    <h1>130</h1>
+                                    <p>Выигранные награды</p>
+                                </div>
+                                <div className="skills">
+                                    <h1>130</h1>
+                                    <p>Выигранные награды</p>
+                                </div>
                                 <div className="skills">
                                     <h1>130</h1>
                                     <p>Выигранные награды</p>
