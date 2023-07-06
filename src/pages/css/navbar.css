@@ -1,0 +1,209 @@
+
+.navbar{
+    width: 100%;
+    min-height: 60px;
+    background-color: #323946;
+    padding-top: 20px;
+
+}
+.navbar-ul ul{
+    display: flex;
+  gap: 40px;
+margin-left: 10%;
+
+}
+.menu{
+    position: relative;
+}
+.menu p{
+   display: flex;
+    font-size: 15px;
+    gap: 10px;
+
+}
+.menu p span{
+  transition: 0.5s;
+    
+    }
+
+.menu ul{
+    position: absolute;
+    width: 250px;
+right: -150px;
+   background: #ffffff;
+    list-style: none;
+    text-align: left;
+    transform: all 3s;
+    opacity: 0;
+   display: block;
+   margin-top: 10px;
+}
+.menuu{
+    height: 40px;
+    cursor: pointer;
+}
+.menu li a{
+  
+    display: block;
+    font-size: 12px;
+    padding: 10px 0 10px 20px;
+  font-size:14px;
+    text-decoration: none;
+    box-sizing: border-box;
+transform: 0.4s;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #333333 ;
+text-decoration: none;
+background-color: transparent;
+}
+.menu p:hover ~ ul, ul:hover{
+    opacity: 1;
+    visibility: visible;
+
+}
+/* .menu a:hover{
+   
+    color: white;
+} */
+.moto-menu-item{
+    display: flex;
+    color: white;
+    cursor: pointer;
+}
+.menu a{
+    display: block;
+    color: #44bef1;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+.moto-menu-item a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+transition: 0.4s;
+}
+.moto-menu-item a:hover{
+    color: #44bef1;
+}
+/* .menu p span:hover{
+    transform: rotate(180deg);
+} */
+.moto-menu-item{
+    transition: 0.4s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu p span{
+ position: relative;
+ top: -4px;
+} 
+.asd img{
+    width: 100%;
+    height: 400px;
+ 
+}
+.hr{
+    background-color: rgb(217, 208, 208);
+    width: 100%;
+    height: 1px;
+}
+.menu ul li{
+    width: 100%;
+    padding: 5px;
+
+}
+
+.menu2 li a span{
+width: 100%;
+height: 100%;
+}
+.menu2{
+    position: relative;
+}
+
+.menu2 ul{
+    position: absolute;
+    width: 200px;
+display: block;
+left: 228px;
+   background: #ffffff;
+    list-style: none;
+    text-align: left;
+    transform: all 3s;
+    opacity: 0;
+    visibility: hidden;
+   display: block;
+   top: -10px;
+}
+.menu2 p{
+    width: 100%;
+    height: 50px;
+    
+    padding: 5px;
+}
+.menu2 a {
+ padding-left: 20px;
+ box-sizing: border-box;
+ transform: 0.4s;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ color: #333333 ;
+ 
+ text-decoration: none;
+ background-color: transparent;
+
+font-size: 12px;
+}
+.menu2 p span{
+    position: relative;
+    top: 7px;
+   left: 160px;
+   
+}
+.men p:hover ~ ul li:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu2 p a{
+    font-size:14px;
+}
+
+.media-menu-navbar{
+    display: none;
+}
+@media (max-width:1431px) {
+.menu ul{
+    display: block !important;
+}
+    .menu li a{
+      
+       
+        font-size: 12px;
+        padding: 10px 0 10px 20px;
+      font-size:14px;
+        text-decoration: none;
+        box-sizing: border-box;
+    transform: 0.4s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #333333 ;
+    text-decoration: none;
+    background-color: transparent;
+    }
+}
