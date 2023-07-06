@@ -67,6 +67,12 @@ function Footer() {
 <div className="futer-liner2"></div>
 <div className="futer-inp"></div>
 
+<div className="futer-block-pass">
+  <p>Get latest updates and offers.</p>
+
+  <input type="text" placeholder='Email *' /><button>Send</button>
+</div>
+
 </div>
 
 </div>
