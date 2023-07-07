@@ -56,7 +56,7 @@ function Footer() {
 <p><i class="fa fa-phone" aria-hidden="true"></i><span>(123) 45678910</span></p>
 <p><i class="fa fa-envelope-o" aria-hidden="true"></i><span>info@demolink.org</span></p>
 <p><i class="fa fa-envelope-o" aria-hidden="true"></i><span>Mon - Sat: 9:00 - 18:00</span></p>
-<p><i class="fa fa-map-marker" aria-hidden="true"></i><span>267 Park Avenue New York, NY 90210</span></p>
+<p><i class="fa fa-map-marker" aria-hidden="true"></i><span>267 Park Avenue New York,   NY 90210</span></p>
 
 </div>
 
@@ -70,10 +70,81 @@ function Footer() {
 <div className="futer-block-pass">
   <p>Get latest updates and offers.</p>
 
-  <input type="text" placeholder='Email *' /><button>Send</button>
+  <input type="text" placeholder='Email * ' required /><button type='button'>Send</button>
 </div>
 
 </div>
+
+
+<div className="media-foter-mobil">
+  <div className="futer-mobil-block">
+  <img src="https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/08/mt-0514-logo-footer.png" alt="" />
+<div className="futer-mobil-text">
+  <p>Welcome to the leading company delivering services that combine quality, reliability and compliance!</p>
+</div>
+<div className="futer-mobil-krug">
+<p>Follow Us:</p>
+<div className="futer-nobil-ichi">
+<div className="krug"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+    <div className="krug"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div className="krug"><i class="fa fa-twitch" aria-hidden="true"></i></div>
+</div>
+</div>
+  </div>
+  <div className="futer-mobil-block2">
+    <h3>Navigation</h3>
+    <div className="futer-nobil-block-line"></div>
+<div className="futer-mobil-block-text">
+  <div className="futer-mobil-block-ul">
+<ul>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">Contacts</a></li>
+  <li><a href="#">Archives</a></li>
+</ul>
+
+
+  </div>
+  <div className="futer-mobil-block-ul1">
+    <ul>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Our team</a></li>
+    </ul>
+  </div>
+</div>
+  </div>
+
+  <div className="futer-mobil-block3">
+    <h3>Contact info</h3>
+    <div className="futer-nobil-block-line"></div>
+    <div className="futer-text">
+<p className='lkas'><i class="fa fa-phone" aria-hidden="true"></i><span>(123) 45678910</span></p>
+<p className='lls'><i class="fa fa-envelope-o" aria-hidden="true"></i><span >info@demolink.org</span></p>
+<p className='lls'><i class="fa fa-envelope-o" aria-hidden="true"></i><span >Mon - Sat: 9:00 - 18:00</span></p>
+<p className='lkas'><i class="fa fa-map-marker" aria-hidden="true"></i><span>267 Park Avenue New York,   NY 90210</span></p>
+
+</div>
+
+  </div>
+  <div className="futer-mobil-block4">
+    <h3>Subscribe</h3>
+    <div className="futer-nobil-block-line1"></div>
+    <p>Get latest updates and offers.</p>
+<div className="futer-mobil-input">
+<input type="email" required placeholder='Email *' />
+
+<div className="futer-mobil-button"><button>Send</button></div>
+
+</div>
+  </div>
+</div>
+
+
+
+
+
+
 
 </div>
 

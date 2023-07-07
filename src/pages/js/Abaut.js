@@ -28,7 +28,7 @@ export default function Abaut() {
 </div>
 </div>
 </div>
-
+<div className="kgh"></div>
 
 
 <Footer/>
