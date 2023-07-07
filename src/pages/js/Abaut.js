@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Abaut.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Images from './Images'
 
 
 export default function Abaut() {
@@ -28,7 +29,7 @@ export default function Abaut() {
 </div>
 </div>
 </div>
-<div className="kgh"></div>
+<Images/>
 
 
 <Footer/>

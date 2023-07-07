@@ -96,7 +96,9 @@ return (
     </div>
     <div className="media-navbar">
       
-      <div className="navbar-menu">
+  
+
+            <div className="navbar-menu">
       <div  className="bar-menu"   id='sa' onClick={() => sa()} >
       <div className="wone" ></div>
       <div className="wone1"  ></div>
@@ -104,6 +106,7 @@ return (
 
 
       </div>
+     
 <div className="media-ul">
 <div className="dfdf">
 <ul>

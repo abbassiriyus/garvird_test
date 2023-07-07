@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Home from "../src/pages/js/Home"
+import Abaut from "../src/pages/js/Abaut"
 
 import './App.css'
 
@@ -7,7 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-<Home/>
+<Abaut/>
       </div>
     )
   }

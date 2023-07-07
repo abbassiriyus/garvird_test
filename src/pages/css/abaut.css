@@ -304,6 +304,7 @@ background-color: #ffffff;
 position: relative;
 top: -10px;
 cursor: pointer;
+
     }
     .bar-menu box-icon{
         width: 100%;
@@ -315,6 +316,7 @@ cursor: pointer;
         display: flex;
         align-items: center !important;
         justify-content: center !important;
+       
     }
   .wone{
     width: 60%;
@@ -413,8 +415,8 @@ position: relative;
     left: 2%;
 }
 .media-ul {
-width: 95.5vw;
-
+width: 94vw;
+overflow: hidden;
   position: relative;
   border: 2px solid #44bef1;
    background-color: #ffffff;
@@ -442,7 +444,7 @@ padding: 15px 50px 10px 20px;
 }
 .bar-menu{
     position: relative;
-    left: 45vw;
+    left: 43vw;
 }
 .adelna{
     background-color: #44bef1;
@@ -581,7 +583,36 @@ margin-left: 82vw;
     position: relative;
 }
 
-.kgh{
-    width: 100%;
-    height: 100vh;
+@media (max-width:480px) {
+    .media-ul {
+        width: 93vw;
+        overflow: hidden;
+          position: relative;
+          border: 2px solid #44bef1;
+           background-color: #ffffff;
+        z-index: 100;
+        display: none;
+        top: -10px;
+        user-select: none;
+        }
+}
+@media (max-width:365px) {
+    .media-ul {
+        width: 92vw;
+        overflow: hidden;
+          position: relative;
+          border: 2px solid #44bef1;
+           background-color: #ffffff;
+        z-index: 100;
+        display: none;
+        top: -10px;
+        user-select: none;
+        }
+}
+
+@media (max-width:400px) {
+  .bar-menu{
+    position: relative;
+    left: 41vw;
+  }  
 }
