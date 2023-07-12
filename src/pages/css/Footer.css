@@ -12,7 +12,7 @@
     min-height: 390px;
     margin-top: 90px;
     padding-top: 85px;
-    overflow: hidden;
+    overflow: hidden !important;
     
 }
 /*  futerii ichidagi sozla */
@@ -45,8 +45,9 @@
 }
 .poa{
     display: flex;
-    gap: 15px;
-   
+    gap: 10px;
+   position: relative;
+   left: 15px;
     
 }
 .krug{
@@ -72,13 +73,13 @@ margin-top: 23px
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.6;
     margin-top: 20px;
 }
 .link-u p{
 position: relative;
-right: 15px;
+right: 0px;
 top: 2px;
 }
 .krug i{
@@ -157,6 +158,10 @@ justify-content: space-between;}
     font-size: 15px;
     line-height: 2.4;
     letter-spacing: 0px;
+    transition: 0.4s;
+}
+.qwe ul a:hover{
+    color: #44bef1;
 }
 .futer-block-mini{
     margin-top: 20px;
@@ -167,6 +172,8 @@ justify-content: space-between;}
 }
 .futer-block3{
     display: block;
+        position: relative;
+        top: 2px;
 }
 .futer-text p{
     text-decoration: none;
@@ -191,7 +198,7 @@ justify-content: space-between;}
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1;
     letter-spacing: 0px;
     position: relative;
@@ -204,7 +211,7 @@ justify-content: space-between;}
 .futer-block4{
     display: block;
     position: relative;
-    top: -25px;
+    top: -13px;
 }
 .futer-block4 h3{
     font-weight: 700;
@@ -241,7 +248,7 @@ border: none;
 .futer-block-pass button{
     height: 50px;
     border: none;
-    width: 75px;
+    width: 85px;
     background-color: #44bef1;
     color: white;
 border-top-right-radius: 5px;
@@ -251,6 +258,10 @@ cursor: pointer;
 
 /* media foterr */
 @media (max-width:1200px) {
+    .futer{
+        overflow: hidden;
+        
+    }
     .vbe {
         font-weight: 300;
         font-style: normal;
@@ -378,6 +389,10 @@ cursor: pointer;
 }
 
 @media (max-width:985px) {
+    .futer{
+        overflow: hidden;
+        
+    }
     .vbe {
         font-weight: 300;
         font-style: normal;
@@ -523,6 +538,10 @@ cursor: pointer;
 }
 }
 @media (max-width:950px) {
+    .futer{
+        overflow: hidden;
+        
+    }
 .futer-block1{
     display: none;
 }
@@ -794,4 +813,28 @@ font-family: unset;
     font-style: normal;
     color: #ffffff;
 }
+}
+@media (max-width:1115px) {
+    .link-u p {
+    position: relative;
+    right: 0px;
+}
+.poa{
+    gap: 3px;
+}
+}
+@media (max-width:1040px) {
+    .krug{
+        width: 20px;
+        height: 20px;
+
+    }
+    .krug i{
+        position: relative;
+        top: -0px;
+    }
+    .poa{
+      position: relative;
+      left: 7px;
+    }
 }

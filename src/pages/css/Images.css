@@ -10,7 +10,7 @@ height: 240px;
 background-color: #f7f7f7;
 margin-top: 100px;
 position: relative;
-top: 100px;
+top: 93px;
 overflow: hidden;
 
 }
@@ -61,7 +61,7 @@ overflow: hidden;
     background-color: #f7f7f7;
     margin-top: 100px;
     position: relative;
-    top: 80px;
+    top: 93px;
     overflow: hidden;
     
     }
@@ -76,7 +76,7 @@ overflow: hidden;
     background-color: #f7f7f7;
     margin-top: 100px;
     position: relative;
-    top: 90px;
+    top: 93px;
     overflow: hidden;
     
     }
@@ -95,7 +95,7 @@ overflow: hidden;
     .images-img {
 display: grid;
 grid-template-columns: auto auto auto;
-     position: relative;
+     
    
     }
     .images{
@@ -104,7 +104,7 @@ grid-template-columns: auto auto auto;
     background-color: #f7f7f7;
     margin-top: 100px;
     position: relative;
-    top: 91px;
+    top: 93px;
     overflow: hidden;
     
     }
@@ -209,7 +209,7 @@ grid-template-columns: auto auto auto;
         background-color: #f7f7f7;
         margin-top: 100px;
         position: relative;
-        top: 100px;
+        top: 93px;
         overflow: hidden;
         
         }

@@ -47,7 +47,30 @@ function sa(){
                document.querySelector(".lll ul").style.opacity="0";
             }
         }
-
+        function menuul() {
+            document.querySelector(".div1").style="display:block"
+            document.querySelector(".menu ul").style="display:block"
+        }
+        function menuul1() {
+            document.querySelector(".menu ul").style="display:none"
+            
+        }
+        function menu2ul() {
+            document.querySelector(".blog1").style="display:block"
+        }
+        function menu2ul12() {
+            document.querySelector(".menu ul").style="display:block"
+            document.querySelector(".blog1").style="display:block"
+        }
+        function menu2leave() {
+            document.querySelector(".blog1").style="display:none"
+            // document.querySelector(".div1").style="display:none"
+        }
+        function menu2leave1() {
+            document.querySelector(".blog1").style="display:none"
+            document.querySelector(".menu ul").style="display:none"
+            document.querySelector(".div1").style="display:none"
+        }
 export default function Navbar() {
     
 
@@ -59,26 +82,27 @@ return (
 <section className='navbar'>
     <div className="navbar-ul">
 <ul>
-     <li className='moto-menu-item'><a href="#">Home</a></li>
+     <li className='moto-menu-item'><a href="#">Главный</a></li>
 
   <div className="menu">
-    <div className="menuu">
-    <p ><a href="#">About</a> <span><box-icon name='chevron-down' color='#44bef1' ></box-icon></span></p>
-    <ul >
-        <li ><a href="#" >Archives</a></li>
+    <div className="menuu" onMouseEnter={() => menuul()}>
+    <p ><a href="#">О нас</a> <span><box-icon name='chevron-down' color='#44bef1' ></box-icon></span></p>
+    <ul onMouseLeave={() => menuul1()} >
+        <li ><a href="#" >Архивы</a></li>
         <div className='hr' />
  <div  id='hh1'></div>
      <div className="menu2" >
-     <p > <a href="#" className='zaib' >News   <span><box-icon name='chevron-right' color='#44bef1' ></box-icon></span></a> </p>
+     <p onMouseEnter={() => menu2ul()} onMouseLeave={()=> menu2leave()}> <a href="#" className='zaib' >Новости  <span><box-icon name='chevron-right' color='#44bef1' ></box-icon></span></a> </p>
 <div id='hh2'></div>
 <div className='hr' />
-     <ul>
-        <li id='ded1'><a href="#">Blog</a></li>
+     <ul onMouseEnter={() => menu2ul()} onMouseLeave={()=> menu2leave1()} className='blog1'>
+        <li id='ded1'><a href="#">Блог</a></li>
         <div className='hr' />
         <div  id='hh1'></div>
-        <li id='ded'><a href="#">Contacts</a></li>
+        <li id='ded'><a href="#">Контакты</a></li>
       
      </ul>
+     
      </div>
        
         <li className='zaib'><a href="#">FAQs</a></li>
@@ -87,10 +111,11 @@ return (
    
 </div>
 
-    <li className='moto-menu-item'> <a href="#">Services</a> </li>
-    <li className='moto-menu-item'><a href="#">Blog</a></li>
-    <li className='moto-menu-item'><a href="#">Our team</a></li>
-    <li className='moto-menu-item'><a href="#">Contacts</a></li>
+    <li className='moto-menu-item'> <a href="#">Услуги</a> </li>
+    <li className='moto-menu-item'><a href="#">Блог</a></li>
+    <li className='moto-menu-item'><a href="#">Наша команда</a></li>
+    <li className='moto-menu-item'><a href="#">Контакты</a></li>
+    <li className='moto-menu-item'><a href="#">Войты</a></li>
 </ul>
 
     </div>
@@ -152,7 +177,7 @@ return (
 
 </section>
 
-
+<div className="div1" onMouseEnter={() => menu2ul12()} onMouseLeave={()=> menu2leave1()}></div>
 
     </div>
   )

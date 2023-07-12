@@ -4,7 +4,10 @@
     min-height: 60px;
     background-color: #323946;
     padding-top: 20px;
-
+    position: fixed;
+    z-index: 100;
+    top: 0;
+transition: 0.5s;
 }
 .navbar-ul ul{
     display: flex;
@@ -21,6 +24,12 @@ margin-left: 10%;
     gap: 10px;
 
 }
+#hh1{
+    display: none;
+}
+#hh2{
+    display: none;
+}
 .menu p span{
   transition: 0.5s;
     
@@ -34,9 +43,10 @@ right: -150px;
     list-style: none;
     text-align: left;
     transform: all 3s;
-    opacity: 0;
-   display: block;
+   display: none;
    margin-top: 10px;
+   border: 1px solid rgb(218, 211, 211);
+   transition: 0.4s;
 }
 .menuu{
     height: 40px;
@@ -133,16 +143,30 @@ height: 100%;
 .menu2 ul{
     position: absolute;
     width: 200px;
-display: block;
+
 left: 228px;
    background: #ffffff;
     list-style: none;
     text-align: left;
     transform: all 3s;
-    opacity: 0;
-    visibility: hidden;
-   display: block;
+transition: 0.4s;
+   display: none;
+   /* z-index: 100; */
    top: -10px;
+   cursor: pointer;
+}
+.menu ul a:hover{
+    color:#44bef1;
+}
+.div1{
+    position: absolute;
+    width: 120px;
+    height: 92px;
+top: 110px;
+left: 420px;
+  display: none;
+ 
+   cursor: pointer;
 }
 .menu2 p{
     width: 100%;
@@ -150,6 +174,7 @@ left: 228px;
     
     padding: 5px;
 }
+
 .menu2 a {
  padding-left: 20px;
  box-sizing: border-box;
@@ -167,7 +192,7 @@ font-size: 12px;
 .menu2 p span{
     position: relative;
     top: 7px;
-   left: 160px;
+   left: 140px;
    
 }
 
@@ -180,7 +205,7 @@ font-size: 12px;
 }
 @media (max-width:1431px) {
 .menu ul{
-    display: block !important;
+    display: none;
 }
     .menu li a{
       
@@ -652,12 +677,7 @@ top: 8px;
         position: relative;
         left: 8vw;
     }
-    .navbar-ul ul{
-        display: flex;
-      gap: 40px;
-    margin-left:8%;
     
-    }
 
 
 }
@@ -696,6 +716,29 @@ top: 8px;
     margin-left:6%;
     
     }
+    .menu2 ul{
+        position: absolute;
+
+
+ left: 19vw;
+       background: #ffffff;
+        list-style: none;
+        text-align: left;
+        transform: all 3s;
+        display: none;
+
+    }
+    .menu ul{
+        position: absolute;
+        width: 250px;
+    right: -150px;
+       background: #ffffff;
+        list-style: none;
+        text-align: left;
+        transform: all 3s;
+       display: none;
+       margin-top: 10px;
+    }
 }
 @media (max-width:1110px) {
     .sahifa-glav{
@@ -709,6 +752,29 @@ top: 8px;
       gap: 40px;
     margin-left:4%;
     
+    }
+    .menu2 ul{
+        position: absolute;
+
+
+ left: 22vw;
+       background: #ffffff;
+        list-style: none;
+        text-align: left;
+        transform: all 3s;
+        display: none;
+
+    }
+    .menu ul{
+        position: absolute;
+        width: 250px;
+    right: -150px;
+       background: #ffffff;
+        list-style: none;
+        text-align: left;
+        transform: all 3s;
+       display: none;
+       margin-top: 10px;
     }
 }
 @media (max-width:1053px) {
@@ -760,15 +826,14 @@ top: 8px;
         position: absolute;
         width: 150px !important;
         height: 70px !important;
-    display: block;
+
     left: 180px !important; 
        background: #ffffff;
         list-style: none;
         text-align: left;
         transform: all 3s;
-        opacity: 0;
-        visibility: hidden;
-       display: block;
+display: none;
+
 top: -30px !important;
     }
     .menuu{
@@ -784,7 +849,7 @@ top: -30px !important;
         list-style: none;
         text-align: left;
         transform: all 3s;
-        opacity: 0;
+
        display: block;
        margin-top: 0;
   
@@ -836,15 +901,14 @@ top: -30px !important;
     .menu2 ul{
         position: absolute;
         width: 180px;
-    display: block;
+
     left: 170px;
        background: #ffffff;
         list-style: none;
         text-align: left;
         transform: all 3s;
-        opacity: 0;
-        visibility: hidden;
-       display: block;
+  
+
        top: -0px;
        
     }
@@ -1076,15 +1140,14 @@ position: relative;
     position: absolute;
     width: 150px !important;
 
-display: block;
+    transition: 0.4s;
 margin-top: 14px !important;
    background: #ffffff;
     list-style: none;
     text-align: left;
     transform: all 3s;
-    opacity: 0;
-    visibility: hidden;
-   display: block;
+
+
    
 }
 .ichi p{
