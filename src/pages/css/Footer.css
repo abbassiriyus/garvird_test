@@ -10,7 +10,7 @@
     width: 100%;
     background: #323946;
     min-height: 390px;
-    margin-top: 90px;
+
     padding-top: 85px;
     overflow: hidden !important;
     
@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 45px;
 }
 .futer-block1{
     display: block;
@@ -566,11 +567,12 @@ display: block;
 .futer{
     width: 100%;
     background: #323946;
-    min-height: 765px;
+    min-height: 840px;
     margin-top: 90px;
     padding-top: 40px;
     overflow: hidden;
    padding-left: 20px;
+   
 }
 .futer-mobil-text p{
     font-weight: 200;
@@ -836,5 +838,17 @@ font-family: unset;
     .poa{
       position: relative;
       left: 7px;
+    }
+}
+@media (max-width:534px) {
+    .futer{
+        width: 100%;
+        background: #323946;
+        min-height: 870px;
+        margin-top: 90px;
+        padding-top: 40px;
+        overflow: hidden;
+       padding-left: 20px;
+       
     }
 }

@@ -69,8 +69,10 @@ function Footer() {
 
 <div className="futer-block-pass">
   <p>Получайте последние обновления <br /> и предложения.</p>
+  <form action="">
+  <input type="text" placeholder='Email * ' required /><button >Send</button>
 
-  <input type="text" placeholder='Email * ' required /><button type='button'>Send</button>
+</form>
 </div>
 
 </div>
@@ -132,10 +134,12 @@ function Footer() {
     <div className="futer-nobil-block-line1"></div>
     <p>Получайте последние обновления и предложения.</p>
 <div className="futer-mobil-input">
+<form action="">
 <input type="email" required placeholder='Email *' />
 
-<div className="futer-mobil-button"><button>Send</button></div>
 
+<div className="futer-mobil-button"><button>Send</button></div>
+</form>
 </div>
   </div>
 </div>

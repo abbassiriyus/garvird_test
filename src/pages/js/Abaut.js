@@ -64,7 +64,7 @@ export default function Abaut() {
         </div>
         <div className="about-header-blcos3">
           <h2>130</h2>
-          <p>Выигранные награды</p>
+          <p>Выигранные <br  className='dfoigdfoi'/> <br  className='dfoigdfoi'/> награды</p>
         </div>
         <div className="about-header-blcos4">
           <h2>723</h2>
@@ -238,8 +238,10 @@ export default function Abaut() {
 
 
 
+<div className="asdod">
 
-{/* <Swiper
+
+<Swiper
         slidesPerView={1}
         spaceBetween={30}
         pagination={{
@@ -256,7 +258,7 @@ export default function Abaut() {
 
 </div>
 <div className="sli-text">
-<p>Вау, я так счастлива с тобой  услуга. Вам удалось превзойти <br /> мои ожидания! Ты ребята очень оперативны</p>
+<p>Вау, я так счастлива с тобой  услуга. Вам удалось превзойти <br className='sdfsdf' /> мои ожидания! Ты ребята очень оперативны</p>
 
 <strong>Адам Уотсон</strong>
 <h4>(Генеральный директор и основатель)</h4>
@@ -269,7 +271,7 @@ export default function Abaut() {
 
 </div>
 <div className="sli-text">
-<p>Привет, ребята! Вы решили мою проблема в кратчайшие сроки! <br /> Твой  услуги и забота о клиентах отлично!</p>
+<p>Привет, ребята! Вы решили мою проблема в кратчайшие сроки! <br className='sdfsdf' /> Твой  услуги и забота о клиентах отлично!</p>
 
 <strong>Луиза Смит</strong>
 <h4>(Генеральный директор и основатель)</h4>
@@ -281,15 +283,15 @@ export default function Abaut() {
 
 </div>
 <div className="sli-text">
-<p>Отличная организация!! Твой быстрый ответ стал  приятный <br /> сюрприз для меня.  Спасибо!</p>
+<p>Отличная организация!! Твой быстрый ответ стал  приятный <br className='sdfsdf' /> сюрприз для меня.  Спасибо!</p>
 
 <strong>Джек Уолш</strong>
 <h4>(Генеральный директор и основатель)</h4>
 </div>
         </SwiperSlide>
 
-      </Swiper> */}
-     
+      </Swiper>
+     </div>
   </div>
 
  </div>
@@ -306,9 +308,9 @@ export default function Abaut() {
 
 
 
+
+
 <Images/>
-
-
 <Footer/>
     </div>
   )

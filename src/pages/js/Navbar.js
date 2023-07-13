@@ -50,6 +50,10 @@ function sa(){
         function menuul() {
             document.querySelector(".div1").style="display:block"
             document.querySelector(".menu ul").style="display:block"
+            document.querySelector(".menuu  span").style="transform: rotate(180deg);"
+        }
+        function menuufolse(){
+            document.querySelector(".menuu  span").style="transform: rotate(0deg);"
         }
         function menuul1() {
             document.querySelector(".menu ul").style="display:none"
@@ -84,7 +88,7 @@ return (
 <ul>
      <li className='moto-menu-item'><a href="#">Главный</a></li>
 
-  <div className="menu">
+  <div className="menu" onMouseLeave={()=>menuufolse()} >
     <div className="menuu" onMouseEnter={() => menuul()}>
     <p ><a href="#">О нас</a> <span><box-icon name='chevron-down' color='#44bef1' ></box-icon></span></p>
     <ul onMouseLeave={() => menuul1()} >

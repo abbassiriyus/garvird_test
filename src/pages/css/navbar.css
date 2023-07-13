@@ -452,13 +452,15 @@ padding: 15px 50px 10px 20px;
 }
 .ichi2 span{
     position: relative;
-    top: 5px;
+   text-align: center;
+   top: 1px;
     max-width: 95vw;
     height: 100%;
     margin: auto;
-    margin-right: -5px;
+    margin-right: 15px;
  transition: 0.5s;
 }
+
 .lll ul a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -555,14 +557,14 @@ margin-left: 82vw;
     display: block;
 }
 
-.ichi{
+/* .ichi{
     display: flex;
   align-items: center;
   width: 95vw;
   height: 100%;
   background-color: #44bef1;
   color: white;
-}
+} */
 
 .ichi li a{
     color: white;
@@ -698,7 +700,7 @@ top: 8px;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
         color: #ffffff;
-      font-size: 28px !important;
+      font-size: 33px !important;
         line-height: 0.8;
         letter-spacing: 0px;
     }
@@ -795,7 +797,7 @@ top: 8px;
 @media (max-width:1034px) {
     .asd{
         width: 100%;
-    min-height: 160px;
+    min-height: 220px;
     background: url("https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-header-bg.jpg");
     background-position: top;
     background-repeat: no-repeat;
@@ -1176,22 +1178,15 @@ margin-left: 82vw;
     display: block;
 }
 
-.ichi{
+/* .ichi{
     display: flex;
   align-items: center;
   width: 95vw;
   height: 100%;
   background-color: #44bef1;
   color: white;
-}
-.ichi span{
-    position: relative;
-    top: 5px;
-    max-width: 95vw;
-    height: 100%;
-    left: 78%;
- transition: 0.5s;
-}
+} */
+
 .ichi li a{
     color: white;
 }
@@ -1236,4 +1231,19 @@ margin-left: 82vw;
         top: -10px;
         user-select: none;
         }
+}
+
+
+.asd-block {
+position: relative;
+left: -1%;
+top: 15px;
+}
+
+
+@media (max-width:321px) {
+    .media-navbar{
+ 
+        z-index: 3483 !important; 
+    }
 }
