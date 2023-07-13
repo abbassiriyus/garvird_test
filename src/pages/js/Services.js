@@ -1,7 +1,18 @@
 import React from 'react'
-import '../css/Services.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Images from './Images'
+import "../css/Services.css"
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+// import required modules
+import { Pagination } from 'swiper/modules';
 export default function Services() {
   return (
     <div>
@@ -9,7 +20,7 @@ export default function Services() {
         <div className="asd">
     {/* <img src={abaut} alt="" /> */}
    <div className="asd-block">
-   <h1>О нас</h1>
+   <h1>Услуги</h1>
    <br />
    <br className='rr' />
   
@@ -67,14 +78,66 @@ export default function Services() {
 
 
         <div className="right-card">
-            <div className="card">
-                <h1>Вам нужна помощь?</h1>
-                <p>Свяжитесь с нами в ближайшем к вам офисе FinExpert или отправьте бизнес-запрос онлайн.</p>
-                <button>Связаться с нами</button>
-            </div>
+        <div className="about-header-card">
+<h4>Вам нужна помощь?</h4>
+<p>Свяжитесь с нами в FinExpert  <br /> ближайший к вам офис или <br /> отправьте бизнес-справка онлайн.</p>
 
+<button>Связаться с нами</button>
+</div>
+            <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+
+        }}
+        modules={[Pagination]}
+        className="mySwiper">
+
+        <SwiperSlide className='sli'>
+        <div className="sli-kurg-rasm">
+
+<div className="sli-img"><img src="https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-about-img01.png" alt="" /></div>
+
+</div>
+<div className="sli-text">
+<p>Вау, я так счастлива с тобой <br /> услуга. Вам удалось превзойти <br /> мои ожидания! Ты ребята очень оперативны</p>
+
+<strong>Адам Уотсон</strong>
+<h4>(Генеральный директор и основатель)</h4>
+</div>
+        </SwiperSlide>
+        <SwiperSlide className='sli'>
+          <div className="sli-kurg-rasm">
+
+<div className="sli-img"><img src="https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-about-img02.png" alt="" /></div>
+
+</div>
+<div className="sli-text">
+<p>Привет, ребята! Вы решили мою проблема в кратчайшие сроки! <br /> Твой  услуги и забота о клиентах отлично!</p>
+
+<strong>Луиза Смит</strong>
+<h4>(Генеральный директор и основатель)</h4>
+</div></SwiperSlide>
+        <SwiperSlide className='sli'>
+        <div className="sli-kurg-rasm">
+
+<div className="sli-img"><img src="https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-about-img03.png" alt="" /></div>
+
+</div>
+<div className="sli-text">
+<p>Отличная организация!! Твой быстрый ответ стал  приятный сюрприз для меня.  Спасибо!</p>
+
+<strong>Джек Уолш</strong>
+<h4>(Генеральный директор и основатель)</h4>
+</div>
+        </SwiperSlide>
+
+      </Swiper>
         </div>
+        
     </div>
+    <Images/>
     <Footer/>
     </div>
   )

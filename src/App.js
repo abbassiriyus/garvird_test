@@ -5,6 +5,7 @@ import './App.css'
 import Blog from './pages/js/Blog'
 import Services from './pages/js/Services'
 import Ourteam from './pages/js/Ourteam'
+import Contact from './pages/js/Contact'
 
 export default class App extends Component {
   render() {
@@ -13,6 +14,9 @@ export default class App extends Component {
 {/* <Abaut/> */}
 {/* <Services/> */}
 <Ourteam/>
+{/* <Blog/> */}
+{/* <Contact/> */}
+
       </div>
     )
   }

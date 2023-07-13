@@ -12,7 +12,7 @@ transition: 0.5s;
 .navbar-ul ul{
     display: flex;
   gap: 40px;
-margin-left: 10%;
+margin-left: 280px;
 
 }
 .menu{
@@ -653,7 +653,7 @@ position: relative;
     display: flex;
     padding: 14px 0;
     position: relative;
-    left: 10vw;
+    left: 280px;
 }
 .safiha-d p{
     font-family: 'Roboto', sans-serif;

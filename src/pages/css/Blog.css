@@ -10,12 +10,16 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: left;
+    overflow: hidden !important;
+    margin-top: 50px !important;
+    margin-bottom: 60px;
 }
 .left {
-    width: 800px;
+    width: 1020px !important;
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
+    overflow: hidden;
 }
 .right {
     flex-wrap: wrap;
@@ -260,4 +264,8 @@
         letter-spacing: 0px;
         margin-bottom: 20px;
     } 
+}
+
+.sdkojfdsopj{
+    overflow: hidden;
 }

@@ -3,37 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
-.header {
+.header66 {
     width: 100%;
     display: flex !important;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.ikki {
+.ikki23 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 80px;
 }
-.left-img {
-    width: 69%;
+.left-img33{
+    width: 73%;
     display: flex;
     flex-wrap: wrap;
+    min-height: 1050px;
 }
 .right-text {
     flex-wrap: wrap;
     margin-top: 9px;
 }
-.cards {
+.cards23 {
     width: 289px;
     height: 35%;
     margin: 25px;
 }
-.cards img {
+.cards23 img {
     width: 100%;
     border-radius: 5px;     
 }
-.cards h5 {
+.cards23 h5 {
     color: #4d4d4d;
     font-weight: 500;
     font-style: normal;
@@ -45,26 +48,27 @@
     border-bottom: 1px solid #4d4d4d;
     padding-bottom: 10px;
 }
-.cards p {
+.cards23 p {
     font-weight: 300;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     color: #4d4d4d;
     font-size: 15px;
-    line-height: 1.6;
+    /* line-height: 1.6; */
+    height: 110px;
     letter-spacing: 0px;
 }
-.cards a {
+.cards23 a {
     color: #000000;
     text-decoration: none;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
 }
-.cards h1 {
+.cards23 h1 {
     margin-bottom: 10px;
 }
-.abouts .sm {
+.abouts23 .sm {
     color: #bababa;
     font-weight: 700;
     font-style: normal;
@@ -75,13 +79,13 @@
     transition: 0.3s ease;
     cursor: pointer;
 }
-.abouts .sm:hover {
+.abouts23 .sm:hover {
     color: #44bef1;
 }
-.card { 
+.cards23 { 
     width: 300px;
     height: 350px;
-    background: #17aeee;
+
     color: white;
     border-radius: 5px;
     padding-bottom: 9px;
@@ -89,16 +93,15 @@
     padding-right: 20px;
     margin-top: 30px;
 }
-.card h1 {
+.cards23 h1 {
     font-weight: 700;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     line-height: 2.2;
     letter-spacing: 0px;
-    padding-top: 20px;
 }
-.card button {
+.cards23 button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -112,11 +115,11 @@
     font-size: 17px;
     transition: .3s;
 }
-.card button:hover {
+.cards23 button:hover {
     background: white;
     color: #17aeee;
 }
-.card p {
+.cards23 p {
     font-weight: 300;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
@@ -124,10 +127,10 @@
     line-height: 1.6;
     letter-spacing: 0px;
     padding-top: 10px;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
 }
 @media(max-width:950px) {
-    .header {
+    .header66 {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -135,7 +138,7 @@
         flex-wrap: wrap;
         margin-left: 10px;
     }
-    .cards h1 a{
+    .cards23 h1 a{
         margin-bottom: 10px;
         font-size: 28px;
         color: #000000;
@@ -155,7 +158,7 @@
         margin-left: 4%;
         margin-top: 19px;
     }
-    .card { 
+    .cards23 { 
         width: 289px;
         height: 230px;
         background: #17aeee;
@@ -166,13 +169,13 @@
         padding-right: 20px;
         margin-top: 30px;
     }
-    .cards {
+    .cards23 {
         width: 289px;
         height: 290px;
         margin-bottom: 20%;
     }
     
-    .cards h5 {
+    .cards23 h5 {
         color: #4d4d4d;
         font-weight: 500;
         font-style: normal;
@@ -191,7 +194,7 @@
         transition: .3s ease;
         font-size: 10px;
     } */
-    .cards p {
+    .cards23 p {
         font-weight: 300;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
@@ -200,22 +203,9 @@
         line-height: 1.6;
         letter-spacing: 0px;
     }
-    .abouts {
-        width: 289px;
-    }
-    .abouts .sm {
-        color: #bababa;
-        font-weight: 700;
-        font-style: normal;
-        border-bottom: 1px solid #bababa;
-        padding-bottom: 10px;
-        font-size: 13px;
-        margin-top: 10px;
-        transition: 0.3s ease;
-        cursor: pointer;
-        width: 100%;    
-    }
-    .card p {
+
+
+    .cards23 p {
         font-weight: 300;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
@@ -225,7 +215,7 @@
         padding-top: 10px;
         margin-bottom: 55px;
     }
-    .card button {
+    .cards23 button {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -246,15 +236,15 @@
         display: flex;
         font-size: 13px;
     }
-    .dumalo:hover {
+    .dumalo12:hover {
         background: #44bef1;
         color: white;
         border: none;
     }
-    .icon{
+    .icon223{
         display: flex;
     }
-    .dumalo{
+    .dumalo12{
         width: 10px;
         height: 10px;
         display: flex !important;
@@ -265,17 +255,15 @@
         /* margin: 5px; */
         transition: 0.5s;
     }
-    .two {
+    .two21 {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 10px;
     }
 }
-span {
-    color: #44bef1;
-}
-.two {
+
+.two21 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -289,12 +277,12 @@ span {
     font-size: 15px;
     display: flex;
 }
-.dumalo:hover {
+.dumalo12:hover {
     background: #44bef1;
     color: white;
     border: none;
 }
-.view h4 {
+.view12 h4 {
     transition: .3s ease;
     font-family: 'Roboto', sans-serif;
     /* font-weight: 900; */
@@ -302,18 +290,18 @@ span {
     color: #323946;
     cursor: pointer;
 }
-.view h4:hover {
+.view12 h4:hover {
     color: #44bef1;
 }
 
-.two h4 {
+.two12 h4 {
     font-family: 'Roboto', sans-serif;
     /* font-weight: 500; */
     font-style: normal;
     color: #323946;
     font-size: 15px;
 }
-.dumalo{
+.dumalo12{
     width: 25px;
     height: 25px;
     display: flex !important;
@@ -324,6 +312,6 @@ span {
     margin: 5px;
     transition: 0.5s;
 }
-.icon{
+.icon223{
     display: flex;
 }

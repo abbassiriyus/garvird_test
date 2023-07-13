@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Contact.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Images from './Images'
 export default function Contact() {
   return (
     <div>
@@ -9,7 +10,7 @@ export default function Contact() {
         <div className="asd">
     {/* <img src={abaut} alt="" /> */}
    <div className="asd-block">
-   <h1>О нас</h1>
+   <h1>Контакты</h1>
    <br />
    <br className='rr' />
   
@@ -26,9 +27,10 @@ export default function Contact() {
 </div>
 </div>
 </div>
-      <div className="katta">
+<div className="asdfkja">
+<div className="katta">
         <div className="container">
-        <div className="left">
+        <div className="left231">
             <h1>Форма для обратной связи</h1>
         <div className="inp">
             <p className="pp" >Ваше имя</p>
@@ -46,7 +48,7 @@ export default function Contact() {
         </div>
     </div>
 
-        <div className="right">
+        <div className="right123">
             <h1>Контактная информация</h1>
             <div className="p">
                 <h4>Адрес</h4>
@@ -62,9 +64,9 @@ export default function Contact() {
     </div>
 
 
-            <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280002074!2d-74.14448754461243!3d40.69763123334598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2s!4v1688466025032!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
+</div>
+<Images/>
 <Footer/>
 
     </div>

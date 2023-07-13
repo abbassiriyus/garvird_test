@@ -2,6 +2,7 @@ import React from 'react'
 import "../css/Blog.css"
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Images from './Images'
 
 export default function Blog() {
   return (
@@ -10,7 +11,7 @@ export default function Blog() {
 <div className="asd">
     {/* <img src={abaut} alt="" /> */}
    <div className="asd-block">
-   <h1>О нас</h1>
+   <h1>Блог</h1>
    <br />
    <br className='rr' />
   
@@ -27,6 +28,7 @@ export default function Blog() {
 </div>
 </div>
 </div>
+<div className="sdkojfdsopj">
 <div className="container">
         <div className="left">
             <div className="big-card">
@@ -89,14 +91,13 @@ export default function Blog() {
                 <h2><a href="#">Основные цели маркетолога</a></h2>
             </div>
 
-            <div className="min-cards">
-                <img src="https://template59172.motopreview.com/mt-demo/59100/59172/mt-content/uploads/2016/09/mt-0514-blog-img01.jpg" alt=""/>
-                <h2><a href="#">Кризис — хорошая возможность нанести смертельный удар конкурентам</a></h2>
-            </div>
+        
         </div>
 
         </div>
     </div>
+</div>
+<Images/>
     <Footer/>
     </div>
   )
